@@ -1,0 +1,27 @@
+.header {
+  height: 80px;
+  width: 100%;
+  background: rgb(175, 191, 245);
+}
+
+.header nav {
+  height: 100%;
+}
+
+.header nav ul {
+  margin: 0px;
+  height: 100%;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+.header nav ul li {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  list-style: none;
+  margin-right: 25px;
+  cursor: pointer;
+  font-size: 1.2rem;
+}
